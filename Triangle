@@ -1,6 +1,4 @@
 def is_triangle(a, b, c):
-    #Если сумма двух любых сторон бльше третьей то треугольник можно построить
-    #иначе нет.
     if a + b > c and a + c > b and b + c > a:
         return True
     else:   
